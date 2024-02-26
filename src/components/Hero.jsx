@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/hero.jpg";
+import hero from "../assets/hero.png";
 const Hero = () => {
   const social_media = [
     "logo-instagram",
@@ -14,7 +14,7 @@ const Hero = () => {
       className="min-h-screen flex mt-5 py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-      <img src={hero} alt="" className="w-1/3 h-full object-cover rounded-" />
+      <img src={hero} alt="" className=" h-full object-cover rounded-full border" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
