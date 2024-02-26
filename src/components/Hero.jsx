@@ -13,7 +13,7 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex mt-5 py-10 md:flex-row flex-col items-center"
     >
-      <div className="flex-1 flex items-center justify-center h-full">
+      <div className="flex-1 flex items-center justify-center mt-2 h-full">
       <img src={hero} alt="" className=" h-full object-cover rounded-full border" />
       </div>
       <div className="flex-1">
